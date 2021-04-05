@@ -4,4 +4,5 @@ Script desenvolvido para renomear arquivos em massa, podendo ser alterado confor
 
 ## Devs:
 * `npm install` para instalar as dependências;
-* Criar o arquivo `.env` conforme descrito no arquivo `.env.example`
+* Criar o arquivo `.env` conforme descrito no arquivo `.env.example`;
+* Para rodar o script utilizar o comando `npm run serve`.
