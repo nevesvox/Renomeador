@@ -4,6 +4,7 @@ const fs = require("fs");
 
 // Inicializa as variaveis
 const caminhoDoArquivo = process.env.CAMINHO_ARQUIVO;
+var contador = 0;
 
 // Chama a função que renomeia os arquivos
 renomeiaNomes();
@@ -30,7 +31,8 @@ async function renomeiaNomes() {
                             if (err) {
                                 throw err;
                             } else {
-                                console.log('Arquivo renomeado: ' + nomeFormatado);
+                                contador++;
+                                console.log('Arquivo renomeado: ' + nomeFormatado, contador);
                             }
                         }
                     );
